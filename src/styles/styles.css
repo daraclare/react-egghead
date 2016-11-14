@@ -1,0 +1,23 @@
+@import url(font-face.css);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  background-color: white;
+}
+
+figcaption, img, .svg-image {
+  width: 30%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'robotobold';
+}
+
+
+h2 {
+  font-family: 'robotoitalic';
+}
