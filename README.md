@@ -1,10 +1,9 @@
+
 # README #
 This repo is intended to be used as a template for developing ReactJS projects. This document will outline what technologies were used and why, as well as give directions on how to get started with the project.
 
-
 ## Basic Tech Stack ##
 React is a JavaScript library for building user interfaces, this needs the react-dom package to enable working with the DOM, and the react-router package as a routing library for React.
-
 
 ### Webpack & Babel ###
 This repo is implemented using webpack and babel. Webpack is a module bundler which takes modules with dependencies and generates static assets representing those modules. Babel is used to transpile ES6 code into readable vanilla ES5 with source maps.
@@ -15,7 +14,7 @@ Mocha is setup as the JavaScript testing framework for this repo, all files shou
 
 ## Getting Started
 Clone the ReactJS Template repo, replacing 'projectname' with your project name:  
-```git clone ssh://git@newsource.accenture.com/cfi/reactjs-template.git projectname```  
+```git clone git@github.com:daraclare/react-egghead.git projectname```  
 ```cd projectname```  
 
 Remove the existing GIT files:  
@@ -27,7 +26,7 @@ Initialise another GIT repo locally:
 ```git add .```  
 ```git commit -m "Initial commit"```  
 
-Now create a repo on newsource.accenture.com and connect this to your local files:  
+Now create a repo and connect this to your local files:  
 ```git remote add origin <repo-address>```  
 ```git push -u origin master```  
 
